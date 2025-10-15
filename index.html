@@ -4,6 +4,34 @@
   <meta charset="UTF-8">
   <title>Báo Lá Chuối</title>
   <style>
+    product-card {
+  width: 180px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  margin: 10px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #007b00;
+  margin: 0;
+}
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -108,6 +136,11 @@
   Nó chứa đựng gần như mọi thông tin của BLC từ thửa sơ khai đến sự chuyển biến của BLC
   từ một công ty nhỏ phát triển thành một công ty toàn khối.
   Hãy đón xem bằng cách đặt hàng!</p>
+       <div class="product-card">
+  <img src="sanpham1.jpg" alt="Sản phẩm 1" width="150">
+  <h3>Báo Lá Chuối - Số đặc biệt</h3>
+  <p class="price">12.000 đ</p>
+</div>
     </article>  
 
     <article id="video">
@@ -125,6 +158,7 @@
   </main>
 </body>
 </html>
+
 
 
 
